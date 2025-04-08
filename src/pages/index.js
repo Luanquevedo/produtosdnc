@@ -1,10 +1,11 @@
 import Head from "next/head"
+import Navbar from '@/components/nav/navbar';
 
 export default function Home() {
     return (
         <section>
             <div>
-                <h1>ola</h1>
+                <Navbar/>
             </div>
         </section>
     );
